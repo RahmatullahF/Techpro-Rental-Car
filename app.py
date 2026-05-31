@@ -41,7 +41,7 @@ def allowed_file(filename):
 DB_USER = os.getenv('DB_USER', 'admin')
 DB_PASSWORD = os.getenv('DB_PASSWORD', '')
 DB_HOST = os.getenv('DB_HOST', 'localhost')
-DB_NAME = os.getenv('DB_NAME', 'araba_kiralama')
+DB_NAME = os.getenv('DB_NAME', 'car_rental')
 
 def validate_dates(baslangic, bitis):
     """Kiralama tarihlerini doğrular"""
